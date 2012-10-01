@@ -1,0 +1,4 @@
+#indent#
+has '#placeholderstart# attribut #placeholderend#' => (
+    is        => '#placeholderstart# accessor [ro, rw] #placeholderend#',
+);
