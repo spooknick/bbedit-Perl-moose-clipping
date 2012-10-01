@@ -1,5 +1,5 @@
-package #placeholderstart# name #placeholderend#;
-
+package #placeholderstart# name #placeholderend# #placeholderstart# version #placeholderend#{
+use 5.014;
 use namespace::autoclean;
 use Moose;
 
@@ -8,5 +8,5 @@ use Moose;
     # methods
 
 __PACKAGE__->meta->make_immutable;
-
+}
 1;
